@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    curb (0.8.4)
+    geckoboard-push (0.1.0)
+      httparty (~> 0.8.1)
+    httparty (0.8.3)
+      multi_json (~> 1.0)
+      multi_xml
+    liftapp-client (0.0.5)
+      httparty
+      nokogiri
+    mini_portile (0.5.1)
+    multi_json (1.7.7)
+    multi_xml (0.5.4)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  curb
+  geckoboard-push
+  liftapp-client
